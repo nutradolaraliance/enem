@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Obter parâmetros da URL atual
         const currentUrlParams = new URLSearchParams(window.location.search);
         // Redirecionar para o início com os mesmos parâmetros
-        window.location.href = '/enem/inscricao/index.html' + (currentUrlParams.toString() ? '?' + currentUrlParams.toString() : '');
+        window.location.href = './enem/inscricao/index.html' + (currentUrlParams.toString() ? '?' + currentUrlParams.toString() : '');
         return;
     }
     // Exibir informações do candidato
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentUrlParams = new URLSearchParams(window.location.search);
         
         // Redirecionar para a página de informações do Enem com os mesmos parâmetros
-        window.location.href = '/enem-info/index.html' + (currentUrlParams.toString() ? '?' + currentUrlParams.toString() : '');
+        window.location.href = '/enem/enem-info/index.html' + (currentUrlParams.toString() ? '?' + currentUrlParams.toString() : '');
     });
 });
     </script>
