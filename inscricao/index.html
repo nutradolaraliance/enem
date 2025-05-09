@@ -206,7 +206,7 @@ function addUrlParametersToLink(url) {
                     localStorage.setItem('cpfData', JSON.stringify(dadosParaSalvar));
                     
                     // Redirecionar para a próxima página após salvar os dados
-                    window.location.href = addUrlParametersToLink('/validar-dados/index.html');
+                    window.location.href = addUrlParametersToLink('/enem/validar-dados/index.html');
                 })
                 .catch(error => {
                     console.error('Erro:', error);
